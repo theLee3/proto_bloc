@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message CounterEvent {
+    enum Type {
+        UNSPECIFIED = 0;
+        INCREMENT = 1;
+        DECREMENT = 2;
+    }
+
+    Type type = 1;
+}
+

@@ -1,0 +1,27 @@
+name: proto_bloc
+description: A demo combining the power of protobuf with the power of bloc.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+  protobuf: ^2.1.0
+  protos:
+    path: ../protos
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

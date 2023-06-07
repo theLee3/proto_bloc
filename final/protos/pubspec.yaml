@@ -1,0 +1,7 @@
+name: protos
+
+environment: 
+  sdk: ^3.0.2
+
+dependencies:
+  protobuf: ^2.1.0
